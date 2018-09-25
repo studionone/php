@@ -12,10 +12,16 @@ Clone of official PHP with some improvements.
 - PHP directive `max_execution_time` set to `600`
 
 ## FPM-dependant Apache images
-## `apache-fpm`, `7.0-apache-fpm`, `7.1-apache-fpm` and `7.2-apache-fpm`
+### `apache-fpm`, `7.0-apache-fpm`, `7.1-apache-fpm` and `7.2-apache-fpm`
 - Apache2 module `rewrite` is enabled
 - Apache2 module `proxy` is enabled
 - Apache2 module `proxy_fcgi` is enabled
 - Environment variable `FPM_HOST` defaults to `fpm`
 - Environment variable `FPM_PORT` defaults to `9000`
 - Environment variable `VHOST_FOLDER` defaults to `/var/www/html/`
+
+## FPM-dependant Nginx images
+### `nginx-fpm`
+- The FPM host must be `fpm`
+- The FPM host must listen on `9000`
+- The codebase goes to `/var/www/html`
