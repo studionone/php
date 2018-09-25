@@ -1,7 +1,7 @@
 # studionone/php
 Clone of official PHP with some improvements.
 
-## Supported tags and respective `Dockerfile` links
+# Supported tags and respective `Dockerfile` links
 - [`apache` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/Dockerfile)
 - [`7.0-apache` (*apache/7.0/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.0/Dockerfile)
 - [`7.1-apache` (*apache/7.1/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.1/Dockerfile)
