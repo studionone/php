@@ -1,6 +1,17 @@
 # studionone/php
 Clone of official PHP with some improvements.
 
+## Supported tags and respective `Dockerfile` links
+- [`apache` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/Dockerfile)
+- [`7.0-apache` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.0/Dockerfile)
+- [`7.1-apache` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.1/Dockerfile)
+- [`7.2-apache` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.2/Dockerfile)
+- [`apache-fpm` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/fpm/Dockerfile)
+- [`7.0-apache-fpm` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.0/fpm/Dockerfile)
+- [`7.1-apache-fpm` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.1/fpm/Dockerfile)
+- [`7.2-apache-fpm` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.2/fpm/Dockerfile)
+- [`nginx-fpm` (*apache/Dockerfile*)](https://github.com/studionone/php/blob/master/nginx/Dockerfile)
+
 ## Standard Apache images
 ### `apache`, `7.0-apache`, `7.1-apache` and `7.2-apache`
 - Apache2 module `mod_rewrite` is enabled
